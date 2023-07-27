@@ -1,0 +1,90 @@
+.info-card {
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 20px;
+
+  &__image {
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  &__name-rating-block {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &__name {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  &__rating {
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+
+  &__star-image {
+    width: 22px;
+  }
+
+  &__star-image-hidden {
+    display: none;
+  }
+
+
+  &__text-content {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+
+  &__year-out {
+    padding-top: 10px;
+
+  }
+
+  &__genres {
+    padding-top: 10px;
+
+  }
+
+  &__description {
+    padding-top: 10px;
+    max-width: 800px;
+  }
+
+
+
+@media screen and (max-width: 920px) {
+  &__image {
+  margin-bottom: 20px;
+    margin-left: 10px;
+  }
+   & {
+     flex-direction: column;
+
+   }
+  &__text-content {
+    padding-left: 10px;
+  }
+}
+
+
+  @media screen and (max-width: 420px) {
+    &__image {
+      padding-bottom: 20px;
+      padding-left: 20px;
+      margin: 0 auto;
+      width: initial;
+    }
+    & {
+      flex-direction: column;
+
+    }
+    &__name-rating-block {
+      flex-wrap: wrap;
+    }
+  }
+
+}
+

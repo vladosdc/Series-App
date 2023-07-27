@@ -1,0 +1,19 @@
+
+.main__cards {
+  padding-bottom: 20px;
+}
+.main__card-image {
+  border-radius: 10px;
+
+}
+.main__card {
+  cursor: pointer;
+  transition: 300ms;
+
+}
+
+.main__card:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 300ms;
+}
