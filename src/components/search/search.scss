@@ -1,6 +1,7 @@
 
 .search {
-  margin: 50px;
+  margin: 50px 20px;
+
 
 
 &__container {
@@ -34,9 +35,21 @@
     height: 50px;
   }
 
-}
+
 .search-image-res {
   max-width: 210px;
   height: 295px;
   border-radius: 10px;
+}
+@media screen and (max-width: 365px){
+  &__input {
+    width: 200px;
+    height: 40px;
+
+  }
+  & {
+    margin: 50px 1px;
+  }
+}
+
 }

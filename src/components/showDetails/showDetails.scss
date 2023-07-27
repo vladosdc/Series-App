@@ -73,9 +73,10 @@
   @media screen and (max-width: 420px) {
     &__image {
       padding-bottom: 20px;
-      padding-left: 20px;
-      margin: 0 auto;
-      width: initial;
+      padding-left: initial;
+
+      width: 230px;
+      height: 315px;
     }
     & {
       flex-direction: column;
