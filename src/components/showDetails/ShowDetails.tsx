@@ -39,12 +39,13 @@ const ShowDetails = () => {
                         <div className="info-card__text-content">
                             <div className="info-card__name-rating-block">
                                 <p className="info-card__name">{data.name}</p>
-                                <p className="info-card__rating">{data.rating?.average ? `(${data.rating.average} /10)` : null}</p>
+                                <p className="info-card__rating">{data.rating?.average ? `(${data.rating.average}/10)` : null}</p>
                                 <img src={star} alt="star image"
                                      className={data.rating?.average ? "info-card__star-image" : "info-card__star-image-hidden"}/>
                             </div>
                             <p className="info-card__year-out">Year out: {data.premiered?.slice(0, 4)}</p>
                             <p className="info-card__genres">Genres: {data.genres?.[0]} {data.genres?.[1] ? `, ${data.genres[1]}` : ''} </p>
+                            <p className="info-card__rating-mobile">{data.rating?.average ? `Rating: ${data.rating.average}/10` : null}</p>
                             <p
                                 className="info-card__description"
                                 dangerouslySetInnerHTML={{__html: `Description: ${data.summary}`}}

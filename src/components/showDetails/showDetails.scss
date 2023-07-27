@@ -49,11 +49,14 @@
 
   }
 
+  &__rating-mobile {
+    display: none;
+  }
+
   &__description {
     padding-top: 10px;
     max-width: 800px;
   }
-
 
   @media screen and (max-width: 920px) {
     &__image {
@@ -69,12 +72,25 @@
     }
   }
 
+  @media screen and (max-width: 750px) {
+    &__rating {
+      display: none;
+    }
+    &__star-image {
+      display: none;
+    }
+    &__rating-mobile {
+      display: flex;
+      padding-top: 10px;
+    }
+    &__name {
+      max-width: 300px;
+    }
+  }
 
   @media screen and (max-width: 420px) {
     &__image {
-      padding-bottom: 20px;
       padding-left: initial;
-
       width: 230px;
       height: 315px;
     }
@@ -85,7 +101,12 @@
     &__name-rating-block {
       flex-wrap: wrap;
     }
+    &__name {
+      font-size: 25px;
+      max-width: 240px;
+    }
   }
+
 
 }
 

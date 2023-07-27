@@ -9,7 +9,7 @@ A simple SPA app with a selection of recommended TV series, as well as a search 
 
 ![Series App](https://github.com/vladosdc/Series-App/assets/60854964/67dbe113-44da-43ee-847f-d4e527c4f45d)
 
-![Series App - search](https://github.com/vladosdc/Series-App/assets/60854964/fff5b56c-9a26-45b0-b4c5-308a86815eca)
+![Series App - search](https://github.com/vladosdc/Series-App/assets/60854964/a9269e00-60d1-4d8d-8cda-f7b4122fc5b1)
 
 
 ### To run on your computer
