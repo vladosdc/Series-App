@@ -1,12 +1,13 @@
 import './header.scss'
 import {Link} from "react-router-dom";
 import home from "../../resources/home.png"
+
 const Header = () => {
     return (
         <div className="header">
             <div className="header__container">
                 <div className="header__title">
-                <Link to={'/'} className="movie-app__text">Series App</Link>
+                    <Link to={'/'} className="movie-app__text">Series App</Link>
                 </div>
                 <div className="header__nav">
                     <nav className="navigation">

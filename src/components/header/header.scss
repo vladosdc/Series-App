@@ -2,59 +2,59 @@
   margin: 10px;
 
 
-&__container {
-  display: flex;
-  justify-content: space-between;
-}
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-&__title {
-  padding-left: 20px;
-  font-size: 25px;
-  font-weight: 600;
-  transition: 250ms;
+  &__title {
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 250ms;
 
-}
+  }
 
   &__title:hover {
-  opacity: 0.8;
+    opacity: 0.8;
     transition: 250ms;
   }
 
-&__nav {
+  &__line {
+    margin-top: 20px;
+    border-bottom: solid orangered 3px;
+  }
 
-}
+
 }
 
 .navigation {
   padding-right: 20px;
   display: flex;
 
-&__main {
-  padding-right: 20px;
-  font-size: 23px;
-  font-weight: 500;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 250ms;
+  &__main {
+    padding-right: 20px;
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 250ms;
 
-}
+  }
 
   &__main:hover {
     opacity: 0.8;
     transition: 250ms;
   }
-&__search__text{
-  padding: initial;
-}
+
+  &__search__text {
+    padding: initial;
+  }
 }
 
-.header__line {
-  margin-top: 20px;
-  border-bottom: solid orangered 3px;
-}
 
 .movie-app__text {
   text-decoration: none;
@@ -78,6 +78,7 @@
     margin: 0 auto;
   }
 }
+
 @media screen and (max-width: 300px) {
   .header__line {
     margin-top: 20px;

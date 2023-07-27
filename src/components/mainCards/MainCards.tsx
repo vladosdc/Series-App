@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 import './mainCards.scss';
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 interface Data {
     id: number | string,

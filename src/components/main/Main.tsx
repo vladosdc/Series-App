@@ -5,10 +5,10 @@ import Header from "../header/Header.tsx";
 const Main = () => {
     return (
         <div className="main">
-                <Header/>
+            <Header/>
             <p className="main__title">Recommended</p>
             <div className="main__cards-container">
-            <MainCards/>
+                <MainCards/>
             </div>
         </div>
     )
