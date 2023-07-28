@@ -44,7 +44,7 @@ const ShowDetails = () => {
                                      className={data.rating?.average ? "info-card__star-image" : "info-card__star-image-hidden"}/>
                             </div>
                             <p className="info-card__year-out">Year out: {data.premiered?.slice(0, 4)}</p>
-                            <p className="info-card__genres">Genres: {data.genres?.[0]} {data.genres?.[1] ? `, ${data.genres[1]}` : ''} </p>
+                            <p className="info-card__genres">{data.genres?.[0] ? `Genres: ${data.genres[0]}` : null} {data.genres?.[1] ? `, ${data.genres[1]}` : ''} </p>
                             <p className="info-card__rating-mobile">{data.rating?.average ? `Rating: ${data.rating.average}/10` : null}</p>
                             <p
                                 className="info-card__description"
